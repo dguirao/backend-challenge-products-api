@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: products-api
+
+server:
+  port: 5000
+
+products:
+  api:
+    url:
+      base: "http://localhost:3001"
+      similarIds: "/product/{productId}/similarids"
+      productById: "product/{productId}"
